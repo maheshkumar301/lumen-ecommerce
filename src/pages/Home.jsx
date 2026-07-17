@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, Truck, ShieldCheck, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Scene from '../components/3d/Scene';
-import { HeroModel } from '../components/3d/HeroModel';
+import { AvatarModel } from '../components/3d/AvatarModel';
 import ProductCard from '../components/ProductCard';
 import SkeletonCard from '../components/SkeletonCard';
 import productsData from '../data/products.json';
@@ -20,30 +20,31 @@ const Home = () => {
 
   return (
     <>
-      <section style={{ position: 'relative', height: '100vh', display: 'flex', alignItems: 'center', paddingTop: '5rem' }}>
-        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
-          <Scene>
-            {/* Shift the model to the right side */}
-            <group position={[2, 0, 0]}>
-              <HeroModel />
-            </group>
-          </Scene>
-        </div>
-
-        <div className="container" style={{ position: 'relative', zIndex: 10 }}>
+      <section style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems: 'center', paddingTop: '8rem', paddingBottom: '4rem' }}>
+        <div className="container split-layout" style={{ alignItems: 'center' }}>
+          
+          {/* Text Content Column */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            style={{ maxWidth: '600px', marginTop: '2rem' }}
+            style={{ position: 'relative', zIndex: 10 }}
           >
-            <h1 style={{ marginBottom: '1.5rem', position: 'relative', zIndex: 10 }}>{t('hero_title')}</h1>
-            <p style={{ fontSize: '1.25rem', marginBottom: '2.5rem', opacity: 0.8, position: 'relative', zIndex: 10, textShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>{t('hero_subtitle')}</p>
+            <h1 style={{ marginBottom: '1.5rem' }}>{t('hero_title')}</h1>
+            <p style={{ fontSize: '1.25rem', marginBottom: '2.5rem', opacity: 0.8 }}>{t('hero_subtitle')}</p>
 
-            <Link to="/shop" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem', padding: '1rem 2.5rem', fontSize: '1.1rem', position: 'relative', zIndex: 10 }}>
+            <Link to="/shop" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem', padding: '1rem 2.5rem', fontSize: '1.1rem' }}>
               {t('btn_explore')} <ArrowRight size={20} />
             </Link>
           </motion.div>
+
+          {/* 3D Model Column */}
+          <div style={{ height: '500px', width: '100%', position: 'relative', zIndex: 0 }}>
+            <Scene>
+              <AvatarModel />
+            </Scene>
+          </div>
+
         </div>
 
         <div style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: 0.5, zIndex: 10 }}>

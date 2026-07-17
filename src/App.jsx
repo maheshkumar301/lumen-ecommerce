@@ -14,9 +14,14 @@ import SettingsPage from './pages/Settings';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
 import Footer from './components/Footer';
+import SplashLoader from './components/SplashLoader';
+import { AnimatePresence } from 'framer-motion';
+import { useProgress } from '@react-three/drei';
 
 function App() {
   const [theme, setTheme] = useState('dark');
+  const [showSplash, setShowSplash] = useState(true);
+  const { progress } = useProgress();
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -26,9 +31,23 @@ function App() {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');
   };
 
+  useEffect(() => {
+    // Wait until the 3D avatar is 100% loaded before starting the dismissal timer
+    if (progress === 100) {
+      const timer = setTimeout(() => {
+        setShowSplash(false);
+      }, 6500);
+      return () => clearTimeout(timer);
+    }
+  }, [progress]);
+
   return (
     <Router>
       <div className="app-container">
+        <AnimatePresence>
+          {showSplash && <SplashLoader key="splash" />}
+        </AnimatePresence>
+        
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <main>
           <Routes>
