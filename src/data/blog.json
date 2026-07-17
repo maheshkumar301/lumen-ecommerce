@@ -1,0 +1,48 @@
+{
+  "featured": {
+    "id": 0,
+    "slug": "redefining-spaces-2026",
+    "title": "Redefining Spaces: The 2026 Interior Trends",
+    "excerpt": "From deep earthy tones to the resurgence of raw textures, explore what's shaping the homes of tomorrow.",
+    "content": "In 2026, interior design has shifted back to the roots of organic living. People are craving spaces that feel incredibly grounded, prioritizing deep earthy tones like rust, olive, and terracotta over the stark whites of previous decades. Raw textures such as unpolished stone, reclaimed wood, and textured plaster are making a massive comeback, providing a tactile richness that modern sterile environments lack.\n\nSustainability is no longer a buzzword; it's a fundamental requirement. We are seeing a huge influx of biodegradable materials and furniture designed for circular lifecycles. The home of tomorrow isn't just a place to live, it's a living, breathing ecosystem that supports both our mental wellbeing and the planet.",
+    "date": "Nov 02, 2026",
+    "readTime": "8 min read",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=80",
+    "category": "Trends"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "slug": "art-of-minimalist-living",
+      "title": "The Art of Minimalist Living",
+      "excerpt": "Discover how reducing clutter can lead to a more focused and peaceful mind in your daily life.",
+      "content": "Minimalism is often misunderstood as simply throwing away all your possessions. In reality, it's about intentionality. It's about evaluating every item in your space and asking: does this serve a purpose? Does this bring me joy?\n\nBy carefully curating our surroundings, we reduce the visual noise that subconsciously drains our energy. A clutter-free space naturally fosters a clutter-free mind, allowing us to focus on the things that truly matter: our relationships, our passions, and our personal growth.",
+      "date": "Oct 15, 2026",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
+      "category": "Design"
+    },
+    {
+      "id": 2,
+      "slug": "choosing-the-right-lighting",
+      "title": "Choosing the Right Lighting",
+      "excerpt": "Lighting changes everything. A guide to selecting the perfect ambient, task, and accent lighting for any room.",
+      "content": "If a room feels 'off' and you can't quite pinpoint why, the culprit is almost always the lighting. Lighting is the invisible architecture of interior design. It dictates the mood, highlights the focal points, and defines the functionality of a space.\n\nThe secret is layering. You need ambient lighting (your general, overall light), task lighting (directed light for reading or cooking), and accent lighting (to highlight art or architectural features). Avoid relying solely on overhead recessed lights, which can cast harsh shadows. Instead, use a mix of floor lamps, table lamps, and wall sconces to create a warm, inviting glow.",
+      "date": "Sep 28, 2026",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e9d15?w=800&q=80",
+      "category": "Interior"
+    },
+    {
+      "id": 3,
+      "slug": "sustainable-materials-2026",
+      "title": "Sustainable Materials in 2026",
+      "excerpt": "Why the shift towards sustainable, ethically sourced materials is transforming modern furniture design.",
+      "content": "The furniture industry is undergoing a massive paradigm shift. Consumers are demanding transparency, and designers are stepping up to the challenge. We are moving away from fast furniture—cheaply made pieces destined for the landfill—and embracing heirlooms made from sustainable materials.\n\nMaterials like bamboo, cork, recycled plastics, and ethically harvested timber are becoming the standard. Innovations in bio-fabrication, such as mushroom mycelium leather and algae-based foams, are proving that luxury and sustainability are not mutually exclusive. This shift isn't just about saving the planet; it's about surrounding ourselves with materials that have a positive, authentic energy.",
+      "date": "Sep 10, 2026",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?w=800&q=80",
+      "category": "Sustainability"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "prod_1",
+    "slug": "minimalist-chair",
+    "name": "product_minimalist_chair",
+    "description": "desc_minimalist_chair",
+    "price": 299.00,
+    "category": "furniture",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800&q=80",
+    "colors": ["#000000", "#FFFFFF", "#8B4513"]
+  },
+  {
+    "id": "prod_2",
+    "slug": "abstract-lamp",
+    "name": "product_abstract_lamp",
+    "description": "desc_abstract_lamp",
+    "price": 149.00,
+    "category": "lighting",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80",
+    "colors": ["#FFD700", "#C0C0C0"]
+  },
+  {
+    "id": "prod_3",
+    "slug": "velvet-sofa",
+    "name": "product_velvet_sofa",
+    "description": "desc_velvet_sofa",
+    "price": 899.00,
+    "category": "furniture",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+    "colors": ["#000080", "#2E8B57"]
+  },
+  {
+    "id": "prod_4",
+    "slug": "marble-table",
+    "name": "product_marble_table",
+    "description": "desc_marble_table",
+    "price": 1299.00,
+    "category": "furniture",
+    "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?w=800&q=80",
+    "colors": ["#FFFFFF", "#000000"]
+  },
+  {
+    "id": "prod_5",
+    "slug": "pendant-light",
+    "name": "product_pendant_light",
+    "description": "desc_pendant_light",
+    "price": 189.00,
+    "category": "lighting",
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e9d15?w=800&q=80",
+    "colors": ["#C0C0C0", "#000000"]
+  },
+  {
+    "id": "prod_6",
+    "slug": "leather-lounge",
+    "name": "product_lounge_chair",
+    "description": "desc_lounge_chair",
+    "price": 749.00,
+    "category": "furniture",
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
+    "colors": ["#8B4513", "#000000"]
+  },
+  {
+    "id": "prod_7",
+    "slug": "geometric-vase",
+    "name": "product_geometric_vase",
+    "description": "desc_geometric_vase",
+    "price": 89.00,
+    "category": "decor",
+    "image": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?w=800&q=80",
+    "colors": ["#FFFFFF", "#808080"]
+  },
+  {
+    "id": "prod_8",
+    "slug": "linen-throw",
+    "name": "product_linen_throw",
+    "description": "desc_linen_throw",
+    "price": 120.00,
+    "category": "textiles",
+    "image": "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=800&q=80",
+    "colors": ["#F5F5DC", "#D3D3D3"]
+  }
+]
