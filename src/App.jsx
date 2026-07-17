@@ -42,7 +42,7 @@ function App() {
   }, [progress]);
 
   return (
-    <Router>
+    <Router basename="/lumen-ecommerce">
       <div className="app-container">
         <AnimatePresence>
           {showSplash && <SplashLoader key="splash" />}
